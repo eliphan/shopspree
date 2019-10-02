@@ -40,6 +40,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'solidus'
 gem 'solidus_auth_devise'
 
+gem "react_on_rails", "11.1.4" # Update to the current version
+gem "webpacker", "~> 3" # Newer versions might be supported
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
